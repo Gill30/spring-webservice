@@ -29,4 +29,8 @@ public class UserServiceImpl implements UserService {
 	public User createUser(User user) {
 		return userDao.Save(user);
 	}
+	
+	public User deleteUser(int id) {
+		return userDao.deleteById(id);
+	}
 }

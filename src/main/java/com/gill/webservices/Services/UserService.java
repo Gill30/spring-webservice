@@ -9,4 +9,5 @@ public interface UserService {
 	public List<User> retrieveAllUsers();
 	public User retrieveUser(int id);
 	public User createUser(User user);
+	public User deleteUser(int id);
 }
